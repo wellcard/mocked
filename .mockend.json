@@ -1,13 +1,16 @@
 {
   "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
-  },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+    "title": {
+      "string": {}
+    },
+    "views": {
+      "int": {
+        "min": 0,
+        "max": 99
+      }
+    },
+    "published": {
+      "boolean": {}
+    }
   }
 }
